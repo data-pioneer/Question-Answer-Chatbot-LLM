@@ -15,7 +15,7 @@ Lifestyle, and Nutrition related question answers.
 ## Installation
 
 1. Clone this repository to your local machine using:
-  git clone https://github.com/data-pioneer/Question-Answer-Large-Language-Model.git
+  git clone (https://github.com/data-pioneer/Question-Answer-Chatbot-LLM.git)
 
 2. Install the required dependencies using pip:
   pip install -r requirements.txt
