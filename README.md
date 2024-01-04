@@ -1,8 +1,8 @@
 # Question-Answer-Large-Language-Model
 
-# Health Lifestyle Nutrition Q&A: Question and Answer System Based on Google Palm LLM and Langchain for learning purpose  
+## Health Lifestyle Nutrition Q&A: Question and Answer System Based on Google Palm LLM and Langchain for learning purpose  
 
-This is an end to end LLM project based on Google Palm and Langchain. i have build a Q&A system for Health, 
+This is an end-to-end LLM project based on Google Palm and Langchain. I have build a Q&A system for Health, 
 Lifestyle, and Nutrition related question answers.
 
 
@@ -10,11 +10,11 @@ Lifestyle, and Nutrition related question answers.
   - Langchain + Google Palm: LLM based Q&A
   - Streamlit: UI
   - Huggingface instructor embeddings: Text embeddings
-  - Annoy: Vector databse
+  - Annoy: Vector database
 
 ## Installation
 
-1.Clone this repository to your local machine using:
+1. Clone this repository to your local machine using:
   git clone https://github.com/data-pioneer/Question-Answer-Large-Language-Model.git
 
 2. Install the required dependencies using pip:
@@ -25,22 +25,18 @@ Lifestyle, and Nutrition related question answers.
   pip install annoy
 
 
-3.Acquire an api key through makersuite.google.com and put it in .env file
-
-
+3. Acquire an API key through makersuite.google.com and put it in the .env file
   GOOGLE_API_KEY="your_api_key_here"
-```
-## Usage
 
+## Usage
 1. Run the long chain implementation file by executing:
 Python langchain_imp.py 
-
 
 2. Run the Streamlit app by executing:
 streamlit run web_main.py
 
-3.The web app will open in your browser.
-- Now you are ready to ask questions. Type your question in Question box and hit Enter
+3. The web app will open in your browser.
+- Now you are ready to ask questions. Type your question in the Question box and hit Enter
 
 ## Sample Questions
   - What are the benefits of  regular exercise?
